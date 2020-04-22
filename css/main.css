@@ -1,5 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* font-family: 'Lato', sans-serif */
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+
+.main-wrap{
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 0;
+  display: flex;
+}
+
+.sidebar-wrap{
+  display: inline-block;
+  flex-basis: 40%;
+  background-color: red;
+}
+
+.rabbit-img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/rabbit.jpeg");
+  width: 90%;
+  padding-bottom: 100%;
+  margin: 0 auto;
+}
+
+.lessons-text{
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.main-cont{
+  display: inline-block;
+  flex-basis: 60%;
+}
+
+.contact-cont{
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.35);
+  border-radius: 20px;
+}
+
+.contact-subtitle{
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(100,100,100,0.5);
+  font-family: 'Lato', sans-serif;
+
+}
+
+.contact-mainhead{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.8em;
+  color: black;
+  padding: 15px 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-mail-text{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: rgba(100,100,100,0.6);
+  padding: 15px 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-btn{
+  border-radius: 20px;
+  background-color: rgb(200,20,40);
+  background-image: linear-gradient(to right, rgb(200,20,40) , #f79319);
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-bitcoin{
+  color: #f79319;
+  font-size: 40px;
 }
