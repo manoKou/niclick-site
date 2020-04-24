@@ -9,6 +9,6 @@
 </style>
 
 
-<p>
-my portfolio website
-</p>
+<h2>
+  A site for a friend. Nick Lyk.
+</h2>
