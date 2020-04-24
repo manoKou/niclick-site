@@ -396,18 +396,43 @@ h2.main-info-text{
   text-align: center;
 }
 
-.fa-twitter{
-    font-size: 30px;
-    color: white;
-    margin: 0 auto;
+.footer-icons-contact{
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
 }
 
+.fa-twitter{
+  font-size: 30px;
+  color: white;
+  margin: 0 10px;
+}
 
+.fa-medium-m{
+  font-size: 30px;
+  color: white;
+  margin: 0 10px;
+}
 
+.friend-cont{
+  text-align: center;
+}
 
+.friend-text{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
 
+.errr{
+  color: rgb(12,134,200);
+}
 
-
+.fa-github{
+  margin: 10px;
+  font-size: 30px;
+  color: rgb(12,134,200);
+}
 
 
 
