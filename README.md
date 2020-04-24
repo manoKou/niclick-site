@@ -1,4 +1,3 @@
-<!-- portfolio -->
 
 <style>
   h2{
