@@ -1,9 +1,6 @@
 window.onload = function(){
-  console.log("console ready!");
 
   var glitchText = document.getElementById("glitch");
-  console.log(glitchText.innerHTML);
-
   var noText = '<span class="bit">no</span>coiner';
   var bitText = '<span class="bit">bit</span>coiner';
 
