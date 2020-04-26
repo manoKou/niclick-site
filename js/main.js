@@ -36,9 +36,9 @@ window.onload = function(){
   });
 
   glitchText.addEventListener('mouseleave', function(event){
-    event.target.setAttribute("data-text", "bitcoiner");
     setTimeout(function() {
       event.target.innerHTML = bitText;
-    }, 500);
+      event.target.setAttribute("data-text", "bitcoiner");
+    }, 1900);
   });
 }
