@@ -90,6 +90,8 @@
   width: 18%;
   padding-bottom: 18%;
   display: inline-block;
+  min-width: 40px;
+  min-height: 40px;
 }
 
 .name-text{
@@ -129,18 +131,34 @@
     width: 100%;
   }
 
-  .navbar-icon{
-    width: 35px;
-    padding-bottom: 34%;
-  }
-
-  @media screen and (max-width:400px){
-    .nav-item-text{
-      white-space: normal;
-    }
-  }
-
 }
+
+@media screen and (max-width: 530px){
+  .navbar-item{
+    flex-basis: 100%;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  .navbar-item:nth-child(0n+3) {
+    justify-content: center;
+  }
+
+  .navbar-icon{
+    width: 18%;
+    padding-bottom: 18%;
+  }
+}
+
+
+@media screen and (max-width:400px){
+  .nav-item-text{
+    white-space: normal;
+  }
+}
+
 
 /* prefixes for the main wrapper */
 .main-wrapper{
@@ -494,18 +512,20 @@
 }
 
 .glitch::before {
-  left: 2px;
-  text-shadow: -1px 0 red;
+  left: 1px;
+  text-shadow: -5px 0 #fff3e0;
   animation: noise-anim 2s infinite linear alternate-reverse;
   animation-play-state: running;
+  font-size: 46px;
 }
 
 .glitch::after {
   left: -2px;
-  text-shadow: -1px 0 blue;
+  text-shadow: -5px 0 #fff3e0;
   clip: rect(44px, 450px, 56px, 0);
   animation: noise-anim 2s infinite linear alternate-reverse;
   animation-play-state: running;
+  font-size: 44px;
 }
 
 
